@@ -1,0 +1,205 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../Assets/back2.jpg);
+    background-repeat:round;
+    background-attachment: fixed;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 20px;
+}
+
+
+header{
+    text-align: center;
+    background-color:#242F9B11;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+}
+#titles{
+    position: relative;
+    top:60px;
+    
+}
+header h1{
+    font-size: 400%;
+    text-shadow : -4px -3px #ffc801;
+    font-family: 'Berkshire Swash', cursive;
+
+
+}
+header h3{
+    position: relative;
+    top: -5px;
+    left: 80px;
+    font-size: 200%;
+    font-family: 'Caveat Brush', cursive;
+
+}
+#dogImage{
+    width: 20%;
+    float: left;
+    position: relative;
+    left: 150px;
+    bottom: 27px;
+}
+
+
+.adocao{
+    background-image: url(../Assets/adocadef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-color: #ffc801;
+    border-style: solid;
+    border-width: 4px;
+
+}
+.Container{
+    display: inline-block;
+    max-width: 30%;
+    background-color: #FEF9A755;
+    padding: 20px;
+    border-color: #ffc801;
+    border-style: solid;
+    border-width: 2px;
+}
+.Container p{
+    font-size: 15px;
+    text-align:justify;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 18px;
+}
+main h2{
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 150%;
+}
+.formContainer{
+
+}
+input,select{
+    box-sizing: border-box;
+    border: none;
+
+}
+.textalignC {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Caveat Brush', cursive;
+    
+}
+#textalignL {
+    text-align: left;
+    font-size: 15px;
+    
+}
+.Inforpessoal{
+    width: 100%;
+    padding: 7px;
+    margin: 3px;
+}
+.formContainer select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url(../Assets/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 95%;
+}
+.botaoenviar{
+    width: 100%;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.dogimage2{
+    position: relative;
+    max-width: 100px;
+    top:2px;
+}
+
+footer{
+    text-align: center;
+    
+
+
+}
+.insta{
+    max-width: 80px;
+}
+.linkinsta{
+    color: #ffc801;
+    text-shadow: 2px -3px black;
+    height: 0px;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    font-size: 25px;
+    padding: 20px;
+}
+.linkinsta:hover{
+    color: #ffc801;
+    text-shadow: 2px -3px black;
+    height: 0px;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    font-size: 40px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 400px){
+
+    #dogImage{
+        width: 200px;
+        position: relative;
+        top: 100px;
+       left: 100px;
+    }
+    header h1{
+        text-align: center;
+        font-size: 300%;
+        text-shadow : -4px -3px #ffc801;
+        font-family: 'Berkshire Swash', cursive;
+    
+    
+    }
+    header h3{
+        font-size: 0%;
+        font-family: 'Caveat Brush', cursive;
+    }
+    header{
+        position: relative;
+        bottom: 50px;
+        text-align: center;
+        color: white;
+        display: inline-block;
+        width: 100%;
+        height: 70px;
+    }
+    
+    .adocao{
+        background: none;
+        border-color: #ffc801;
+        border-style: solid;
+        border-width: 4px;
+    
+    }
+    .Container{
+        display: inline-block;
+        max-width: 100%;
+        background-color: #FEF9A7cc;
+        padding: 20px;
+        border-color: #ffc801;
+        border-style: solid;
+        border-width: 2px;
+    }
+}
+
